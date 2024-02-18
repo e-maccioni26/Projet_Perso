@@ -14,40 +14,63 @@
 </head>
 <body>
     <header>
-        <nav id="navbar">
-            <div>
-                <a href="">
-                    <img class="img-fluid-custom" src="img/WE_COMM_STORY-removebg-preview 3.jpg" alt="">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid-custom" src="img/logo.jpg" alt="">
                 </a>
-            </div>
-            <div class="d-flex align-items-center">
-                <li>
-                    <a href="#">Tarifs</a>
-                </li>
-                <li>
-                    <a href="#">Nos Solutions</a>
-                </li>
-                <li>
-                    <a href="#">Web-Stories</a>
-                </li>
-                <li>
-                    <a href="#">Contactez-nous</a>
-                </li>
-            </div>
-            <div class="d-flex align-items-center justify-content-center gap-2">
-                <a href="#">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-                <a href="#">
-                    <i class="bi bi-instagram"></i>
-                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="tarifs.html">Tarifs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nos-solutions.html">Nos Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="web-stories.html">Web-Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactez-nous.html">Contactez-nous</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 navbar-nav-custom">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom" href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom" href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+    
 
 
     <section class="first-section">
-        <h1>Accroître l'Engagement,<br> <span>Captiver l'Audience.</span> <br>Vos Histoires, Votre Succès</h1>
+        <div class="row row-custom">
+            <div class="col-6 d-flex justify-content-center flex-column">
+                <h1>Boostez l'Engagement, <br><span>Captiver l'Audience,</span><br> Vos Stories, Votre Succès.</h1>
+                <p>Découvrez notre outil pour créer des histoires visuelles percutantes. Nos Web Stories sont conçues pour attirer immédiatement l'attention de votre audience. Des visuels saisissants et un format captivant pour vos utilisateurs.</p>
+                <div class="d-flex align-items-center">
+                    <a class="button" href="">Voir nos tarifs</a>
+                    <a class="button-secondaire" href="">Obtenir une Démo</a>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center mobile">
+                <video src="img/Web-Stories-movies.mov" class="object-fit-cover video" autoplay loop></video>
+            </div>
+        </div>
     </section>
 
     <section class="second-section">
@@ -55,12 +78,12 @@
             <div class="col-6">
                 <img class="img-fluid" src="img/Templates-stories.png" alt="">
             </div>
-            <div class="col-6 d-flex justify-content-center flex-column">
+            <div class="col-6 d-flex justify-content-center flex-column mb-5">
                 <h2>Des Stories Web qui attirent l'attention dès le <span id="point">premier regard.</span></h2>
                 <p>Découvrez notre outil pour créer des histoires visuelles percutantes. Nos Web Stories sont conçues pour attirer immédiatement l'attention de votre audience. Des visuels saisissants et un format captivant pour vos utilisateurs.</p>
                 <div class="d-flex align-items-center">
                     <a class="button" href="">Voir nos tarifs</a>
-                    <a class="button-secondaire" href="">Démo Web-Stories</a>
+                    <a class="button-secondaire" href="">Obtenir une Démo</a>
                 </div>
             </div>
         </div>
@@ -68,12 +91,12 @@
 
     <section class="third-section">
         <div class="row">
-            <div class="col-6 d-flex justify-content-center flex-column">
+            <div class="col-6 d-flex justify-content-center flex-column padding">
                 <h2>Une Nouvelle Manière <span id="point">d’engagement.</span></h2>
                 <p>Découvrez notre outil pour créer des histoires visuelles percutantes. Nos Web Stories sont conçues pour attirer immédiatement l'attention de votre audience. Des visuels saisissants et un format captivant pour vos utilisateurs.</p>
                 <div class="d-flex align-items-center">
                     <a class="button" href="">Voir nos tarifs</a>
-                    <a class="button-secondaire" href="">Démo Web-Stories</a>
+                    <a class="button-secondaire" href="">Obtenir une Démo</a>
                 </div>
             </div>
             <div class="col-6">
@@ -83,7 +106,7 @@
     </section>
 
     <section class="four-section">
-        <h2 class="text-white fs-3">Transformer votre contenu en expériences captivantes avec les <span id="point">Web Stories.</span></h2>
+        <h2 class="text-white">Transformer votre contenu en expériences captivantes avec les <span id="point">Web Stories.</span></h2>
     </section>
 
     <footer>

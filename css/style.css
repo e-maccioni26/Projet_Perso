@@ -2,27 +2,25 @@ body{
     font-family: 'Montserrat', sans-serif!important;
     margin: 0;
     padding: 0;
+    background-color: #F5FAFB!important;
 }
 
 h2{
-    color: #1C81C5!important;
+    color: #5D69FF!important;
     font-weight: 600!important;
 }
 
 .first-section{
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-    padding: 175px;
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 180px;
+    padding: 175px 120px 0px;
 }
 
 
 .first-section h1{
-    color: white;
+    color: #5D69FF;
     font-size: 45px;
-    text-align: center;
     font-weight: 600;
 }
 
@@ -32,19 +30,16 @@ h2{
 }
 
 .four-section{
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #5D69FF, #5D69FF, #0072FF);
     padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#navbar{
-    display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr;
-    position: fixed;
+nav{
     background-color: white;
-    width: 100%;
+    border-bottom: solid 0.5px #EEEEEE;
 }
 
 .img-fluid-custom{
@@ -58,21 +53,21 @@ h2{
     margin-left: 0!important;
 }
 
+
 li{
     list-style: none;
 }
 
 li a{
-    text-decoration: none;
-    color: black;
-    margin-right: 20px;
-    font-weight: 500;
+    color: black!important;
+    margin-right: 15px;
+    font-weight: 500!important;
 }
 
 .button{
     text-decoration: none;
     margin-right: 15px;
-    background-color: #0072FF;
+    background-color: #3372e3;
     color: white;
     padding: 10px 15px 10px 15px;
     border-radius: 30px;
@@ -92,5 +87,45 @@ li a{
 
 #point{
     color: black;
+    text-decoration: underline;
 }
 
+.video{
+    width: 40%;
+    border-radius: 15px;
+}
+
+.nav-link-custom{
+    margin-right: 5px;
+}
+.navbar-nav-custom{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: center;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.navbar-toggler:focus{
+outline: none!important;
+box-shadow: none!important;
+}
+
+
+.bi-list::before{
+    content: "\f479";
+    background: linear-gradient(45deg, #00C3CC, #3372E3, #7426EF);
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+}
+.bi-linkedin::before{
+    font-size: 20px;
+}
+.bi-instagram::before{
+    font-size: 20px;
+}
+
+.padding{
+    padding-left: 101px!important;
+}
