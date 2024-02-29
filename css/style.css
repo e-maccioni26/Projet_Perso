@@ -10,6 +10,10 @@ h2{
     font-weight: 600!important;
 }
 
+a{
+    text-decoration: none!important;
+}
+
 .first-section{
     display: flex;
     align-content: center;
@@ -209,3 +213,21 @@ box-shadow: none!important;
     color: transparent;
 }
 /* FIN ICONES  */
+
+footer{
+    background-color: white;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.custom-img-logo-footer{
+    width: 30%;
+    height: auto;
+}
+
+#footer-section{
+    padding: 150px;
+}
