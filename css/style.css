@@ -17,9 +17,23 @@ h2{
     padding: 175px 120px 0px;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#section-advantages{
+    padding: 50px;
+    margin-top: 220px;
+    background-color: white;
+    box-shadow: 3px 2px 12px 2px #fafafa;
+}
+
 
 .first-section h1{
-    color: #5D69FF;
+    background: linear-gradient(to left, #00c3cc, #3372e3, #7426ef);
+    -webkit-background-clip: text;
+    color: transparent;
     font-size: 45px;
     font-weight: 600;
 }
@@ -87,7 +101,6 @@ li a{
 
 #point{
     color: black;
-    text-decoration: underline;
 }
 
 .video{
@@ -111,6 +124,48 @@ outline: none!important;
 box-shadow: none!important;
 }
 
+.padding{
+    padding-left: 101px!important;
+}
+
+.avis-rond{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+}
+.avis-rond:hover{
+    transform: scale(1.2);
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.color-stars i{
+    color: rgb(234, 234, 4);
+    font-size: 17px;
+}
+
+/* ICONES */
+.zoom{
+    transition: transform 0.3s ease-in-out;
+}
+.zoom:hover{
+    transform: scale(1.2);
+}
+
+.bi-emoji-heart-eyes::before{
+    font-size: 55px;
+    background: linear-gradient(#5F3CE8, #0072FF);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
 
 .bi-list::before{
     content: "\f479";
@@ -121,11 +176,36 @@ box-shadow: none!important;
 }
 .bi-linkedin::before{
     font-size: 20px;
+    background: linear-gradient(to left, #00c3cc, #3372e3, #7426ef);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .bi-instagram::before{
     font-size: 20px;
+    background: linear-gradient(to left, #00c3cc, #3372e3, #7426ef);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
-.padding{
-    padding-left: 101px!important;
+
+.bi-hand-index-thumb::before{
+    font-size: 55px;
+    background: linear-gradient(#5F3CE8, #0072FF);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
 }
+.bi-phone::before{
+    font-size: 55px;
+    background: linear-gradient(#5F3CE8, #0072FF);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+.bi-patch-check::before{
+    font-size: 40px;
+    background: linear-gradient(to left, #00c3cc, #3372e3, #7426ef);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+/* FIN ICONES  */
