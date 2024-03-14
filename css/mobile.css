@@ -23,4 +23,27 @@
     .four-section{
         text-align: center;
     }
+
+    .grid{
+        grid-template-columns: none;
+    }
+
+    .grid2{
+        grid-template-columns: none;
+    }
+    #footer-section{
+        padding: 30px;
+    }
+    .grid3{
+        grid-template-columns: none;
+    }
+    .custom-img-logo-footer{
+        width: 40%;
+    }
+    .text-custom{
+        text-align: center;
+    }
+    .width-75{
+        width: 100%;
+    }
 }

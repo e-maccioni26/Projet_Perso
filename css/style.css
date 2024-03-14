@@ -21,6 +21,17 @@ a{
     padding: 175px 120px 0px;
 }
 
+.fixed{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.margin-bottom-custom{
+    margin-bottom: 20px;
+}
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -79,7 +90,10 @@ li{
 li a{
     color: black!important;
     margin-right: 15px;
-    font-weight: 500!important;
+}
+
+.width-75{
+    width: 75%;
 }
 
 .button{
