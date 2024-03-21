@@ -66,6 +66,11 @@ a{
     justify-content: center;
 }
 
+.six-section{
+    padding: 70px;
+    background-color: white;
+}
+
 nav{
     background-color: white;
     border-bottom: solid 0.5px #EEEEEE;
@@ -244,4 +249,53 @@ footer{
 
 #footer-section{
     padding: 150px;
+}
+
+.custom-font-size{
+    font-size: 40px!important;
+}
+
+#font-number{
+    font-size: 4.75rem;
+    color: #4363DF;
+    font-weight: 600;
+}
+
+.second-section h2{
+    background: linear-gradient(to left, #00c3cc, #3372e3, #7426ef);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.seven-section{
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.block-information{
+    background: linear-gradient(to left, #00c3cc, #3372e3, #7426ef);
+    padding: 40px 90px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+
+.custom-font-size-h3{
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+.bi-telephone-fill::before{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.button-white{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    font-weight: 600;
 }
