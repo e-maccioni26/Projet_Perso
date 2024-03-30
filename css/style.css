@@ -37,6 +37,12 @@ a{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr!important;
+    gap: 180px;
+}
+
 #section-advantages{
     padding: 50px;
     margin-top: 220px;
@@ -133,6 +139,9 @@ li a{
 
 .nav-link-custom{
     margin-right: 5px;
+}
+.nav-link{
+    font-weight: 500!important;
 }
 .navbar-nav-custom{
     display: flex!important;
@@ -298,4 +307,25 @@ footer{
     padding: 10px 15px 10px 15px;
     border-radius: 30px;
     font-weight: 600;
+}
+
+.padding{
+    padding: 70px;
+}
+
+.bi-code-slash::before{
+    font-size: 80px;
+}
+
+.bi-eyeglasses::before{
+    font-size: 80px;
+}
+
+.bi-speedometer2::before{
+    font-size: 80px
+}
+
+.web-stories{
+    background-color: white;
+    padding: 100px;
 }
