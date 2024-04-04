@@ -47,3 +47,25 @@
         width: 100%;
     }
 }
+
+/* Web-Stories */ 
+
+@media (min-width: 300px) and (max-width: 787px) {
+    .first-section{
+        padding: 175px 20px 0px;
+    }
+
+    .grid4{
+        grid-template-columns: none!important;
+        gap: 50px;
+    }
+
+    .padding{
+        padding: 0;
+        padding-left: 0 !important;
+    }
+
+    #section-avantages{
+        padding: 35px;
+    }
+}
